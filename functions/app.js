@@ -11,7 +11,7 @@ console.log(chain("Salut"));
 
 
 function twochain(chain1, chain2){
-	return chain1 + " " + chain2
+	return chain1 + " " + chain2;
 }
 console.log(twochain("hello", "world"));
 
@@ -26,3 +26,9 @@ function comparenumber(number1, number2){
 	else{
 		return "Les deux nombres sont identiques";
 	}
+}
+
+	function chainnumber(chain, number){
+		return chain + " " + number;
+	}
+	console.log(chainnumber("vitesse =", 40));
