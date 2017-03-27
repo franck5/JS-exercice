@@ -5,5 +5,6 @@ console.log(mois[10]);
 mois.splice(7, 1, "août");
 console.log(mois);
 
-
-//var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
+var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
+array.push('Courgette');
+console.log(array);
