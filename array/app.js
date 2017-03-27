@@ -8,4 +8,5 @@ console.log(mois);
 var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
 array.push('Courgette');
 array.splice(4, 0, 'Citron');
+array.splice(1,1);
 console.log(array);
